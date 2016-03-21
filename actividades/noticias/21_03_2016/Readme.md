@@ -1,11 +1,28 @@
-#Los asistentes de voz, más rápidos, más furiosos!
+#Solo para efectos de draf e indexado
 
-Los desarrolladores de Cortana,Google Now y Siri están preocupados, gracias a los avances que el profesor David DeVault a logrado. DeVault y su equipo han desarrollando un sistema de procesamiento del lenguaje de alta velocidad que aspira a competir en rapidez y eficiencia con el de los hablantes humanos en entornos específicos. Esta es una investigación que cuenta con el apoyo de Universidad del Sur de California (USC) y la Fundación Nacional de Ciencia (NSF), en la actualidad los asistentes por voz tienen una demora en la comprensión y respuesta que sus usuarios realizan, estas demoran rondan entre uno y dos segundos entre que comprenden lo que se les consulta y son capaces de dar respuestas coherentes. Esto estaría por cambiar gracias a DeVault, en su investigación realizaron un juego en el cual le dieron protagonismo a Eve, una agente de procesamiento del lenguaje de alto rendimiento. La dinámica es sencilla: cada jugador ve un conjunto de ocho imágenes en la pantalla de su ordenador. Siempre son las mismas en cada ronda, aunque dispuestas en un orden diferente. A medida que se van resaltando, el jugador debe describirlas mientras el sistema trata de adivinar de qué se trata de la forma más rápida y precisa, para conseguir la puntuación más alta. El experimento permitió mejorar el rendimiento de Eve, con este tipo de entrenamientos se busca optimizar los algoritmos para resolver el reconocimiento de voz, la comprensión del lenguaje y el diálogo. El entrenamiento constante permitió que Eve pudiera responder antes de que el jugador acabara de hablar, permitiendo tener una interacción mucho más natural y fluida, consiguiendo resultados comparables a los obtenidos en el juego entre rivales de carne y hueso.
-La aplicación de estos resultados son notables en los campos de los asistentes de voz, también en campos como la automatización de call centers, salud o el entretenimiento, sin embargo 	DeVault subraya #Estamos en el comienzo de un cambio radical en lo que podemos lograr a través de la conversación con los ordenadores", esperemos ver resultados en el corto plazo. 
+## Titulo 
 
+Crean Bio Superordenador energéticamente eficiente y obtiene su energía igual que las células vivas. 
 
+## Resumen
 
-# Opinion 
+Actualmente controlar la temperatura de los computadores no es una tarea sencilla[1,2,3], adicionalmente se realizan muchos esfuerzos para reducir su consumo energético[4]. Gracias a los avances del profesor Dan Nicolau y su hijo, hoy existe la posibilidad de desarrollar bio-computadores que sean mas eficientes energéticamente, lo que hace que emitan mucho menos calor que los computadores tradicionales. 
+La investigación llevada a cabo por más de 7 años por los Nicolau (padre e hijo) permitió construir un modelo de computadora biológica que obtiene su energía del trifosfato de adenosina (ATP)[5], al igual que los hacen las células vivas. Este modelo permite realizar operaciones complejas de la misma manera que los hacen las super computadoras, utilizando procesamiento paralelo. 
+Las pruebas actuales permitieron construir un chip de 1,5 centímetros cuadrados, que parecen el mapa de una gran ciudad vista desde un avión, sin embargo este chip es capaz de realizar operaciones muy complejas solo usando ATP. 
+Es importante continuar en la exploración de modelos de esta naturaleza ya que se debe construir un equipo funcional a escala completa, como indica Nicolau "Es difícil decir cuándo veremos un bio-superordenador a escala completa. Una de las opciones para hacer frente a problemas más grandes y complejos puede ser combinar nuestro dispositivo con un ordenador convencional para que forme un dispositivo híbrido. En este momento estamos trabajando en una variedad de maneras de llevar la investigación más lejos" [6].
+	
 
-El procesamiento de voz\autocite{pvoz}, desde el Reconocimiento de voz hasta reconocimiento de locutores, tiene un potencial muy grande no solo para la ciencia como tal y sus disciplinas sino también para el mercado. Soluciones que permitan identificar en tiempo real a las personas, construir asistentes automáticos para la asistencia de personas de la tercera edad y evidentemente los asistentes de voz de los distintos dispositivos móviles de la actualidad. Adicionalmente recordemos que hoy existe también un mercado bastante desarrollado de otro tipo de asistentes por voz como Echo\autocite{echo} de amazon con Alexa\autocite{alexa}, que pueden verse significativamente favorecidos por este tipo de avances, en sistemas de realización de recetas o como es el caso de Mattel con juguetes\autocite{hbarbie} para niños con una experiencia mucho mas natural. 
-Con respecto a los avances en Ciencia de la Computación los avances son significativos tanto en el procesamiento en linea y fuera de linea de voz, también se ven grandes pasos en el desarrollo del entendimiento de lenguaje natural. 
+## Opinion
+
+El uso de bio computadores significa un salto muy importante, permitiendo la construcción de dispositivos híbridos, llevando uno de los puntos de la computacion atributos de la ciencia de la computación (pasar de lo físico a lo virtual y viceversa ) a otro nivel. Con respecto a los aspectos de ahorro de energía y menor dispersión de calor pueden significar adelantos nunca sospechados, seria muy importante que estos computadores biológicos sean lo mas eficientes posibles y ademas no generen problemas con temperaturas como por ejemplo muchos de nosotros puede observar en los celulares o computadores portátiles. 
+
+## Referencias 
+
+1) https://www.mundohvacr.com.mx/mundo/2013/02/enfriamiento-en-centros-de-datos/
+2) https://www.mundohvacr.com.mx/mundo/2012/05/mejores-practicas-para-enfriamiento-en-centros-de-datos/
+3) http://www.apcmedia.com/salestools/JNIN-7RMNRX/JNIN-7RMNRX_R0_LS.pdf?sdirect=true
+4) http://www.emersonnetworkpower.com/documentation/en-us/brands/liebert/documents/white%20papers/energy%20logic-reducing%20data%20center%20energy%20consumption%20by%20creating%20savings%20that%20cascade%20across%20systems%20(spanish).pdf
+5) https://es.wikipedia.org/wiki/Adenos%C3%ADn_trifosfato
+6) http://www.pnas.org/content/113/10/2591.full.pdf
+
+ 
