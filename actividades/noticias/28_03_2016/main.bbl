@@ -1,0 +1,43 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{web:1}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Svennevig}{S.}%
+     {Birgitte}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SB1}
+  \strng{fullhash}{SB1}
+  \field{title}{Now researchers can follow the hectic life inside a cell}
+  \verb{url}
+  \verb http://www.sdu.dk/en/om_sdu/fakulteterne/naturvidenskab/aktuelt/2016_03
+  \verb _11_cell_traffic
+  \endverb
+  \field{year}{2016}
+  \field{urlday}{21}
+  \field{urlmonth}{03}
+  \field{urlyear}{2016}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
