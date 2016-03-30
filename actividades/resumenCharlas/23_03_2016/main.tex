@@ -1,0 +1,145 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[version=3]{mhchem}
+\usepackage[journal=jacs]{chemstyle}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{xcolor}
+\usepackage[stable]{footmisc}
+\usepackage[section]{placeins}
+%Paquetes necesarios para tablas
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{xtab}
+\usepackage{multirow}
+\usepackage{colortab}
+%Paquete para el manejo de las unidades
+\usepackage{siunitx}
+\sisetup{mode=text, output-decimal-marker = {,}, per-mode = symbol, qualifier-mode = phrase, qualifier-phrase = { de }, list-units = brackets, range-units = brackets, range-phrase = --}
+\DeclareSIUnit[number-unit-product = \;] \atmosphere{atm}
+\DeclareSIUnit[number-unit-product = \;] \pound{lb}
+\DeclareSIUnit[number-unit-product = \;] \inch{"}
+\DeclareSIUnit[number-unit-product = \;] \foot{ft}
+\DeclareSIUnit[number-unit-product = \;] \yard{yd}
+\DeclareSIUnit[number-unit-product = \;] \mile{mi}
+\DeclareSIUnit[number-unit-product = \;] \pint{pt}
+\DeclareSIUnit[number-unit-product = \;] \quart{qt}
+\DeclareSIUnit[number-unit-product = \;] \flounce{fl-oz}
+\DeclareSIUnit[number-unit-product = \;] \ounce{oz}
+\DeclareSIUnit[number-unit-product = \;] \degreeFahrenheit{\SIUnitSymbolDegree F}
+\DeclareSIUnit[number-unit-product = \;] \degreeRankine{\SIUnitSymbolDegree R}
+\DeclareSIUnit[number-unit-product = \;] \usgallon{galón}
+\DeclareSIUnit[number-unit-product = \;] \uma{uma}
+\DeclareSIUnit[number-unit-product = \;] \ppm{ppm}
+\DeclareSIUnit[number-unit-product = \;] \eqg{eq-g}
+\DeclareSIUnit[number-unit-product = \;] \normal{\eqg\per\liter\of{solución}}
+\DeclareSIUnit[number-unit-product = \;] \molal{\mole\per\kilo\gram\of{solvente}}
+\usepackage{cancel}
+%Paquetes necesarios para imágenes, pies de página, etc.
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{fancyhdr}
+\usepackage[left=4cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+
+%Instrucción para evitar la indentación
+%\setlength\parindent{0pt}
+%Paquete para incluir la bibliografía
+\usepackage[backend=bibtex,style=chem-acs,biblabel=dot]{biblatex}
+\addbibresource{references.bib}
+
+%Formato del título de las secciones
+
+\usepackage{titlesec}
+\usepackage{enumitem}
+\titleformat*{\section}{\bfseries\large}
+\titleformat*{\subsection}{\bfseries\normalsize}
+
+%Creación del ambiente anexos
+\usepackage{float}
+\floatstyle{plaintop}
+\newfloat{anexo}{thp}{anx}
+\floatname{anexo}{Anexo}
+\restylefloat{anexo}
+\restylefloat{figure}
+
+%Modificación del formato de los captions
+\usepackage[margin=10pt,labelfont=bf]{caption}
+
+%Paquete para incluir comentarios
+\usepackage{todonotes}
+
+%Paquete para incluir hipervínculos
+\usepackage[colorlinks=true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = black,
+            anchorcolor = blue]{hyperref}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%Inicio del documento%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\renewcommand{\labelitemi}{$\checkmark$}
+
+\renewcommand{\CancelColor}{\color{red}}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash}m{#1}}
+
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash}m{#1}}
+
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash}m{#1}}
+
+\begin{center}
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % Ingresa el mejor titulo que se te ocurra
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\textbf{\LARGE{Charlas de introducción a la investigación en campos de Geometría computacional y Búsqueda y recuperación de datos en multimedia. }}\\
+	\vspace{4mm}
+		\textbf{\large{Tomás Vera\\
+  email: \href{mailto:vtomasv@gmail.com}{vtomasv@gmail.com}  } }\\
+	\vspace{3mm}
+	\textbf{\large{Universidad de Chile}}\\
+	\textbf{\small{CC71T-1 Investigación en Cs. de la Computación.(Métodos,Técnicas,Persp.) }}\\
+	\textbf{\large{Profesor: Claudio Gutierrez \\
+  email: \href{mailto:cgutierr@dcc.uchile.cl}{cgutierr@dcc.uchile.cl}  } }\\
+	\today
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resumen formal de la noticia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{\centering Resumen}
+El día 23 de Marzo del 2016, en el contexto del curso de Introducción a la investigación de las ciencias de la computacion liderado por el profesor Claudio Gutierrez se realizo una presentación sobre los temas de investigación de dos académicos de la Universidad de Chile.
+La primera parte de la exposición estuvo a cargo la profesora asociada Nancy Hitschfeld Kahler\autocite{Nancy}, Doctor en Ciencias Aplicadas, ETH-Zurich, Suiza (1993) y Magíster en Computación, Universidad de Chile (1987), la cual comento los aspecto relevantes de su rol como investigador del DCC y sus aportes en el ámbito de la Geometría computacional, la segunda parte de este evento estubo a cargo del profesor asociado Benjamin Bustos\autocite{benjamin}, Doctor en Ciencias Naturales de la Universidad de Konstanz, Alemania (2006) y Magíster en Computación (2002) e Ingeniero Civil en Computación, Universidad de Chile (2001), en su exposición comento temas relevantes sobre su rol y aporte a la ciencia en el campo de la búsqueda y recupero de datos multimedia.
+A continuación se detallan los aspectos mas relevantes de cada una de sus exposiciones.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Refinamiento de la idea
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Nancy Hitschfeld Kahler y el mundo reticulado}
+
+La Doctora Nancy logro con gran claridad poder ilustrar la complejidad actual de poder construir algoritmos que tengan la capacidad de representar con buena calidad elementos de la realidad, esto son elementos tan variados como un chip, una ciudad o una galaxia. La complejidad de estos algoritmos y modelos no solo radica en su complicidad intrínseca sino también en la calidad de los datos que se tengan para poder afinar el comportamiento de estos algoritmos, adicionalmente uno de los principales estudios es la creación de mallas lo mas flexibles y exactas posibles para la representación de estas estructuras\autocite{meshing}.
+Destaco en su introducción la gran ínter-relación que existe de esta disciplina con áreas como la Matematicas Discretas, la Geometría Clásica, la teoría de grafos, teoría de conjunto entre otras.
+Los aportes de esta disciplina a la ciencia van desde la simulación de comportamiento de materiales en un chip o las alas de un avión hasta la identificación de zonas de acumulación de energía oscura en observaciones astronómicas\autocite{Anillo}.
+Los problemas planteados cubren aspectos de performance de algoritmos existentes, para el uso eficientes de los recursos computacionales como así también la creación de nuevos algoritmos que permitan realizar aproximaciones mas exactas a los modelos que se desean representar. En particular otro tema importante es la escasez de datos para ciertos proyectos relacionados con la disciplina como la inexistencia de puntos útiles para simulaciones de clima o contaminación en areas pobladas donde es necesario contar con informacion detallada y masiva de estructura y altura de edificios entre otros.
+
+\section{Benjamin Bustos y la oftalmología de las maquinas}
+
+Cuando buscar un aguja en un pajar plantea una complejidad, buscar contenido multimedia multiplica exponencialmente esta complejidad. La cantidad de datos multimedia existente y su mala indexación (automática o manual) hoy representan un desafío que puede ser resuelto en el campo de las ciencias de la computacion. Con esta introducción el Doctor Benjamin nos deja claro la complejidad no solo de describir de forma correcta un contenido multimedia sino también la gran complejidad que existe a la hora de recuperar este contenido desde distintas fuentes. Los aportes a la ciencia en este campo permiten no solo acceder de forma correcta a contenido multimedia, por ejemplo a una parte especifica de una película o un lugar, sino también poder proveer a maquinas (robots, computadores)  de habilidades de reconocimiento automático de objetos 3D.
+Los problemas existentes son variados, desde la estructura de datos para la representación de objetos multimedia, objetos 2d, 3d, etc,. La indexación  automática de estos objetos de manera correcta, para búsquedas por distintos criterios como la búsqueda por similitud, desde como se indexa el objeto, con sus respectivos puntos de interés, hasta el algoritmo que determina la similitud de este para ser retornado en una búsqueda. A su vez la extensión de lenguajes semánticos que permitan la búsqueda de contenido multimedia también es un campo de interés.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Referencias sobre la noticia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Referencias\label{sec:references}}
+
+\printbibliography[heading=none]
+
+\end{document}
